@@ -55,7 +55,8 @@ body{
     border-radius: 2px;
     border: 1px solid #0070fe;
     padding: .2rem;
-    
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .tiltcard2{
@@ -69,11 +70,13 @@ body{
     border-radius: 2px;
     border: 1px solid #0070fe;
     padding: .2rem;
-    
+    overflow: hidden;
+    text-overflow: ellipsis;
+    opacity: 20%;
 }
 
 .tiltcard2:hover{
-    opacity: 10%;
+    opacity: 100%;
 }
 
 .pc{
@@ -84,11 +87,6 @@ body{
     font-size: 25px;
     margin-bottom: 2rem;
     text-align: center;
-}
-
-a{
-    text-decoration: none;
-    color: black;
 }
 
 #title{
