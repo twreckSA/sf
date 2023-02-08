@@ -418,7 +418,7 @@ var VanillaTilt = (function () {
       extendSettings(settings) {
         let defaultSettings = {
           reverse: false,
-          max: 15,
+          max: 4,
           startX: 0,
           startY: 0,
           perspective: 1000,
